@@ -66,7 +66,7 @@ I will explore move javascript projects to gain more confidenece
 
 ### Useful resources
 
-- [Mdn docs](https://developer.mozilla.org/en-US/)and will use it going forward.
+- [Mdn docs](https://developer.mozilla.org/en-US/)
 - [w3 schools](https://www.w3schools.com/)
 
 
