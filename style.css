@@ -140,31 +140,6 @@ input[type=text]:active{
     margin: 2em 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -172,4 +147,39 @@ input[type=text]:active{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 400px) {
+    .left{
+        width: 90%;
+        padding: 2em;
+    }
+    .main_heading{
+        font-size: 3rem;
+    }
+    .heading_description{
+        font-size: 1.5rem;
+    }
+    .div_newsletter{
+        flex-direction: column-reverse;
+        padding: 0;
+        margin: 0;;
+    }
+    .illustration{
+        width: 100%;
+    }
+    li{
+        font-size: 1.5rem;
+        color: var(--Charcoal-Grey);
+        background: url('./assets/images/icon-list.svg') no-repeat left center;
+        background-size: 16px;
+        list-style: none;
+        padding: 5px 5px 5px 30px;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .btn, input{
+        height: 8em;
+    }
+    
 }
