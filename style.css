@@ -79,7 +79,7 @@ li{
     justify-content: space-between;
 }
 label{
-    font-size: 4px;
+    font-size: .4em;
     color: var(--Dark-Slate-Grey);
 }
 #label_error{
@@ -143,6 +143,7 @@ input[type=text]:active{
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin-top: 2em;
 }
 
 .attribution a {
@@ -150,6 +151,12 @@ input[type=text]:active{
 }
 
 @media only screen and (max-width: 400px) {
+
+    body{
+        width: 400px;
+        background-color:var(--White);
+    }
+    
     .left{
         width: 90%;
         padding: 2em;
@@ -178,8 +185,33 @@ input[type=text]:active{
         margin: 0;
         vertical-align: middle;
     }
-    .btn, input{
-        height: 8em;
+    input{
+        height: 4em;
+    }
+    input{
+        font-size: 1rem;
+        padding: 0 .8em;
+    }
+    .btn{
+        font-size: 1rem;
+        height: 5em;
+    }
+
+    .div_success{
+        width: 100vw;
+        padding: 10em 3em 0 3em;
+        border-radius: 0;
+    }
+    .div_success h1{
+        font-size: 4rem;
+        margin: 1em 0 0 0;
+    }
+    .div_success p{
+        font-size: 2rem;
+        margin: 1em 0 11em;
+    }
+    .div_success img{
+        width:80px;
     }
     
 }

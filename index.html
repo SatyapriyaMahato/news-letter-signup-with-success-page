@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <main class="container">
     <!-- Sign-up form start -->
     <div id="newsLetter" class="div_newsletter">
@@ -39,21 +38,22 @@
       <div class="right">
         <picture>
           <source media="(max-width: 400px)" srcset="./assets/images/illustration-sign-up-mobile.svg">
-          <img class="illustration" src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration" aria-label="illustration">
+          <img class="illustration" src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration"
+            aria-label="illustration">
         </picture>
-        
+
       </div>
     </div>
 
     <!-- Sign-up form end -->
 
     <!-- Success message start -->
-    <div id = "div_success" class="div_success">
+    <div id="div_success" class="div_success">
       <img src="./assets/images/icon-success.svg" alt="success icon" aria-label="success icon" width="30px">
       <h1>Thanks for subscribing!</h1>
       <p>A confirmation email has been sent to ash@loremcompany.com.
         Please open it and click the button inside to confirm your subscription.</p>
-      <button class="btn"> Dismiss message</button>
+      <button id="dismissBtn" class="btn" onclick="window.location.reload();" type="submit"> Dismiss message</button>
     </div>
 
     <!-- Success message end -->
@@ -63,7 +63,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Satyapriya Mahato</a>.
   </div>
 </body>
 
