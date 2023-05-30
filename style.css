@@ -26,6 +26,7 @@ html{
 
 body{
     background-color:var(--Charcoal-Grey);
+    overflow-x: hidden;
 }
 h1{
     font-size: 2rem;
@@ -51,8 +52,12 @@ li{
 }
 
 .container{
-    max-width: 960px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .div_newsletter{
     display: flex;
@@ -151,9 +156,11 @@ input[type=text]:active{
 }
 
 @media only screen and (max-width: 400px) {
-
+    .container{
+        width: 100vw;
+        height: auto;
+    }
     body{
-        width: 400px;
         background-color:var(--White);
     }
     
